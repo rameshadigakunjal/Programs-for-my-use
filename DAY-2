@@ -1,0 +1,34 @@
+
+JAVA PROGRAMING LANGUAGE:
+PROGRAM NUMBER :2 AREA OF CIRCLE,CIRCUMFERENCE:
+package com.myuse;
+
+import java.util.Scanner;
+
+class AreaCircumference{
+	public double pi=3.14;
+	public double circumference(double r) {
+		return 2*pi*r;
+	}
+	public double area(double r) {
+		return pi*r*r;
+	}
+}
+public class Area {
+
+			public static void main(String[] args) {
+				Scanner sc=new Scanner(System.in);
+				AreaCircumference ac=new AreaCircumference();
+				System.out.print("Enter the radius of circle :");
+				double r=sc.nextDouble();
+				System.out.println("Circumference of the circle is :"+ac.circumference(r));
+				System.out.println("Area of the circle is :"+ac.area(r));
+			}
+	}
+
+OUTPUT:
+Enter the radius of circle :5
+Circumference of the circle is :31.400000000000002
+Area of the circle is :78.5
+
+
