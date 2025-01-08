@@ -1,6 +1,6 @@
 
-JAVA PROGRAMING LANGUAGE:
-PROGRAM NUMBER :2 AREA OF CIRCLE,CIRCUMFERENCE:
+/*JAVA PROGRAMING LANGUAGE:
+PROGRAM NUMBER :2 AREA OF CIRCLE,CIRCUMFERENCE: */
 package com.myuse;
 
 import java.util.Scanner;
@@ -26,9 +26,9 @@ public class Area {
 			}
 	}
 
-OUTPUT:
-Enter the radius of circle :5
-Circumference of the circle is :31.400000000000002
-Area of the circle is :78.5
+/*OUTPUT:
+  Enter the radius of circle :5
+  Circumference of the circle is :31.400000000000002
+  Area of the circle is :78.5  */
 
 
